@@ -10,7 +10,7 @@
 
 <body>
     <!-- Nav bar -->
-    <nav class="relative container m-auto p-6 bg-red-400">
+    <nav class="relative container m-auto mx-auto p-6 bg-brightRed py-8">
         <!-- Flex container -->
         <div class="flex items-center justify-between">
             <!-- logo -->
@@ -25,11 +25,7 @@
                 <a href="#" class="hover:text-darkGrayishBlue">Careers</a>
                 <a href="#" class="hover:text-darkGrayishBlue">Community</a>
             </div>
-            <!-- Button -->
-            <a href=""
-                class="hidden md:block p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight">Get
-                Started
-            </a>
+
             <!-- Hamburger Icon -->
             <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
                 <span class="hamburger-top"></span>
@@ -41,7 +37,7 @@
         <div class="md:hidden">
             <div id="menu"
                 class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
-                <a href="#">Pricing</a>
+                <a href="#">PricingXXX</a>
                 <a href="#">Product</a>
                 <a href="#">Contact Us</a>
                 <a href="#">Careers</a>
@@ -219,16 +215,6 @@
         </div>
     </section>
 
-    <script>
-        const btn = document.getElementById('menu-btn');
-        const nav = document.getElementById('menu');
-
-        btn.addEventListener('click', () => {
-            btn.classList.toggle('open');
-            nav.classList.toggle('flex');
-            nav.classList.toggle('hidden');
-        });
-    </script>
 
 
     <!-- Footer -->
@@ -236,7 +222,7 @@
         <div class="container mx-auto px-6">
             <div class="flex flex-col md:flex-row justify-between items-center">
                 <!-- Social Media Links -->
-                <div class="mt-10 flex space-x-6 mb-6 md:mb-0 md:mt-0">
+                <div class="flex space-x-6 mb-6 md:mb-0 md:mt-0">
                     <a href="https://www.facebook.com" class="text-white hover:text-gray-300" target="_blank"
                         rel="noopener noreferrer">
                         <img src="img/icon-facebook.svg" alt="Facebook" class="h-6 w-6">
@@ -266,6 +252,7 @@
             </div>
         </div>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
